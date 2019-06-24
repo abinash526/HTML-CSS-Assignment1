@@ -16,7 +16,7 @@ body{
     background-image: url("../img/college.png");
 }
  .footer{
-            position: fixed;
+           float: left;
             left: 0;
             bottom: 0;
             width: 100%;
@@ -64,12 +64,24 @@ body{
     }
 
 .column {
-    
+    margin-top: 20px;
 text-shadow: 5px 5px 12px #535050;
+font-size: 20px;
     float: left;
     width: 30%;
     padding: 25px;
   }
+  .column1 {
+    font-size: 20px;
+    text-shadow: 5px 5px 12px #535050;
+        float: left;
+        width: 45%;
+        padding: 25px;
+      }
+      .column1:hover{
+        background-color: rgb(255, 255, 255);
+      }
+      
   .column:hover{
     background-color: rgb(255, 255, 255);
   }
